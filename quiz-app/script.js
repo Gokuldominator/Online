@@ -4,7 +4,7 @@ const quizData = [
         a: "Yes",
         b: "No",
         c: "May be",
-        d: "Little bit",
+        d: "Not Much",
         correct: "a",
     },
     {
