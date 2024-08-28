@@ -76,7 +76,7 @@ class HorizontalScrollPlugin extends Scrollbar.ScrollbarPlugin {
     }
 }
 _defineProperty(HorizontalScrollPlugin, "pluginName", 'horizontalScroll');
-if (ifMobile()) { var $damping = 0.1; } else { var $damping = 0.07; }
+if (ifMobile()) { var $damping = 0.1; } else { var $damping = 0.06; }
 if ($ifScrollH) {
     if ($win.width() > $res) {
         Scrollbar.use(HorizontalScrollPlugin);
